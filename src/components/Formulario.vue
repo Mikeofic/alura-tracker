@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="box formulario">
     <div class="columns">
       <div 
         class="column is-8" 
@@ -15,11 +15,9 @@
 
       <div class="column">
         <Temporizador @aoTemporizadorFinalizado="finalizarTarefa"/>
-
       </div>
     </div>
   </div>
-
 </template>
 
 <script lang="ts">  
@@ -53,5 +51,8 @@
 </script>
 
 <style>
-
+  .formulario {
+    color: var(--texto-primario);
+    background: var(--bg-primario);
+  }
 </style>
